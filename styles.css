@@ -181,6 +181,13 @@ a:hover {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.ap-project-title:hover {
+    text-decoration: underline;
+    color: #0099ff !important;
 }
 
 .ap-project-year {
@@ -223,6 +230,7 @@ a:hover {
     color: #000 !important;
     text-decoration: none;
 }
+
 .ap-publication-title:hover {
     text-decoration: underline;
     color: #0099ff !important;
@@ -243,8 +251,73 @@ a:hover {
     font-size: 16px;
 }
 
+.ap-certification {
+    margin: 16px 0px;
+}
+
+.ap-certification-title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.ap-certification-title:hover {
+    text-decoration: underline;
+    color: #0099ff !important;
+}
+
+.ap-certification-institute {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ap-certification-year {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8f8f8f;
+    margin: 4px 0px 8px;
+}
+
+.ap-certification-excerpt {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+.ap-achievement {
+    margin: 16px 0px;
+}
+
+.ap-achievement-title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ap-achievement-year {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8f8f8f;
+    margin: 4px 0px 8px;
+}
+
+.ap-achievement-excerpt {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+
 .ap-footer {
     margin: 40px 0px 20px;
+    text-align: center;
 }
 
 .ap-social {
@@ -284,9 +357,11 @@ a:hover {
     text-decoration: underline;
 
 }
+
 .ap-social-header {
     margin-bottom: 8px;
 }
+
 .ap-social-header ul {
     margin: 0;
     padding: 0;
@@ -319,6 +394,12 @@ a:hover {
 .ap-social-header ul li a:hover {
     text-decoration: underline;
     color: #0099ff;
+}
+.ap-copyright {
+    margin: 4px 0px;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: #999999;
 }
 
 .ap-blog-post {
